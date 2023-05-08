@@ -1,6 +1,6 @@
 # yujin's Web
 
-### Live - https://yujin-portfolio.netlify.app/
+### Live - https://mellifluous-monstera-ab839c.netlify.app/
 
 ### Features -
 
