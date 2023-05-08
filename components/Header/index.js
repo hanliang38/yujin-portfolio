@@ -6,7 +6,7 @@ import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
 
-const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
+const Header = () => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -38,6 +38,17 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </div>
 
               <div className="flex items-center">
+                <Button onClick={() => window.open(data.socials[0].link)}>
+                  <img
+                    className="h-5"
+                    src={`/images/${
+                      theme === "dark"
+                        ? "insta-icon-dark.svg"
+                        : "insta-icon-white.svg"
+                    }`}
+                  />
+                </Button>
+
                 {data.darkMode && (
                   <Button
                     onClick={() =>
@@ -55,7 +66,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
 
                 <Popover.Button>
                   <img
-                    className="h-5"
+                    className="h-5 ml-1"
                     src={`/images/${
                       !open
                         ? theme === "dark"
@@ -145,7 +156,16 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           {showContact && (
             <Button onClick={() => router.push("/contact")}>Contact</Button>
           )}
-
+          <Button onClick={() => window.open(data.socials[0].link)}>
+            <img
+              className="h-5"
+              src={`/images/${
+                theme === "dark"
+                  ? "insta-icon-dark.svg"
+                  : "insta-icon-white.svg"
+              }`}
+            />
+          </Button>
           {mounted && theme && data.darkMode && (
             <Button
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}

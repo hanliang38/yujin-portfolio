@@ -38,26 +38,28 @@
     },
     {
       "id": "3",
-      "title": "Project Three",
-      "description": "3",
-      "imageSrc": "/images/ani/01.jpg"
+      "title": "Duck Frog Animated walk cycle",
+      "description": "Colour pencil, 2022",
+      "imageSrc": "/images/ani/01.jpg",
+      "link": "https://vimeo.com/700615281"
     },
     {
       "id": "4",
-      "title": "Project Four",
-      "description": "4",
-      "imageSrc": "/images/ani/02.jpg"
+      "title": "Beat-Poeanimationtry",
+      "description": "Colour pencil, 2021",
+      "imageSrc": "/images/ani/02.jpg",
+      "link": "https://vimeo.com/649663858"
     },
     {
       "id": "5",
-      "title": "Project Five",
-      "description": "Development",
+      "title": "ME",
+      "description": "Acrylic on clay, 2022",
       "imageSrc": "/images/obj/01.jpg"
     },
     {
       "id": "6",
-      "title": "Project Six",
-      "description": "Design & Development",
+      "title": "Slow rush",
+      "description": "Wood and metal, 2022",
       "imageSrc": "/images/obj/03.jpg"
     }
   ],
