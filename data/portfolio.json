@@ -1,1 +1,212 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+  "name": "Yujin",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Yujin Lee",
+  "headerTaglineThree": "who is an Illustrator and 3D object maker.",
+  "headerTaglineFour": "Based in Seoul, Republic of Korea.",
+  "headerTaglineFive": "Currently studying at Kingston University in London, England.",
+  "showCursor": true,
+  "darkMode": true,
+  "showAnimation": true,
+  "showObject": true,
+  "showContact": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Instagram",
+      "link": "https://instagram.com/yujaol"
+    },
+    {
+      "id": "2",
+      "title": "Email1",
+      "link": "mailto:k2145340@kingston.ac.uk"
+    },
+    { "id": "3", "title": "Email2", "link": "mailto:yuja0627@gmail.com" }
+  ],
+  "showpieces": [
+    {
+      "id": "1",
+      "title": "Depression",
+      "description": "Gouache, 2020",
+      "imageSrc": "/images/illust/01.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Secret Garden",
+      "description": "Gouache, 2020",
+      "imageSrc": "/images/illust/02.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Project Three",
+      "description": "3",
+      "imageSrc": "/images/ani/01.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Project Four",
+      "description": "4",
+      "imageSrc": "/images/ani/02.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Project Five",
+      "description": "Development",
+      "imageSrc": "/images/obj/01.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Project Six",
+      "description": "Design & Development",
+      "imageSrc": "/images/obj/03.jpg"
+    }
+  ],
+  "illustrations": [
+    {
+      "id": "1",
+      "title": "Depression",
+      "description": "Gouache, 2020",
+      "imageSrc": "/images/illust/01.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Secret Garden",
+      "description": "Gouache, 2020",
+      "imageSrc": "/images/illust/02.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Soul of Seoul: N Seoul Tower",
+      "description": "Watercolour and colour pencil, 2021",
+      "imageSrc": "/images/illust/03.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Soul of Seoul: Han River and Tower",
+      "description": "Watercolour and colour pencil, 2021",
+      "imageSrc": "/images/illust/04.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Soul of Seoul: Sungnyemun",
+      "description": "Watercolour and colour pencil, 2021",
+      "imageSrc": "/images/illust/05.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Terra Incognita",
+      "description": "Linocut, 2020",
+      "imageSrc": "/images/illust/06.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Han River Riding",
+      "description": "Digital, 2022",
+      "imageSrc": "/images/illust/07.jpg"
+    },
+    {
+      "id": "8",
+      "title": "HAPPINESS",
+      "description": "Linocut, 2022",
+      "imageSrc": "/images/illust/08.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Board game card Illustration",
+      "description": "Digital, 2022",
+      "imageSrc": "/images/illust/09.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Book cover design for 'Diary of a Young Naturalist'",
+      "description": "Digital, 2021",
+      "imageSrc": "/images/illust/10.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Drawing piece",
+      "description": "Graphite and Digital, 2022",
+      "imageSrc": "/images/illust/11.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Observational Drawing",
+      "description": "Ink and colour pencil, 2022",
+      "imageSrc": "/images/illust/12.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Life Drawing",
+      "description": "Charcoal, 2021",
+      "imageSrc": "/images/illust/13.jpg"
+    }
+  ],
+  "animations": [
+    {
+      "id": "1",
+      "title": "Duck Frog Animated walk cycle",
+      "description": "Colour pencil, 2022",
+      "imageSrc": "/images/ani/01.jpg",
+      "link": "https://vimeo.com/700615281"
+    },
+    {
+      "id": "2",
+      "title": "Beat-Poeanimationtry",
+      "description": "Colour pencil, 2021",
+      "imageSrc": "/images/ani/02.jpg",
+      "link": "https://vimeo.com/649663858"
+    },
+    {
+      "id": "3",
+      "title": "Squashy and Stretchy Fox",
+      "description": "Graphite, 2021",
+      "imageSrc": "/images/ani/03.jpg",
+      "link": "https://vimeo.com/649663369"
+    },
+    {
+      "id": "4",
+      "title": "GIF for 'Circular' fashion : greenwashing myth, or attainable goal?",
+      "description": "Digital, 2021",
+      "imageSrc": "/images/ani/04.jpg",
+      "link": "https://vimeo.com/649655013"
+    }
+  ],
+  "objects": [
+    {
+      "id": "1",
+      "title": "ME",
+      "description": "Acrylic on clay, 2022",
+      "imageSrc": "/images/obj/01.jpg"
+    },
+    {
+      "id": "2",
+      "title": "We Are Rice Zine",
+      "description": "Digital and paper, 2021",
+      "imageSrc": "/images/obj/02.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Slow rush",
+      "description": "Wood and metal, 2022",
+      "imageSrc": "/images/obj/03.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Fully Fueled Frenzy Board game",
+      "description": "Digital on paper, 2022",
+      "imageSrc": "/images/obj/04.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Cat and Dog stamp",
+      "description": "Linocut, 2022",
+      "imageSrc": "/images/obj/05.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Awesome Red Tomato",
+      "description": "Fabric and thread, 2023",
+      "imageSrc": "/images/obj/05.jpg"
+    }
+  ]
+}
