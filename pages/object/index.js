@@ -60,7 +60,7 @@ export default function Object() {
                 img={project.imageSrc}
                 name={project.title}
                 description={project.description}
-                onClick={() => router.push(`/animation/${project.id}`)}
+                onClick={() => router.push(`/object/${project.id}`)}
               />
             ))}
           </div>

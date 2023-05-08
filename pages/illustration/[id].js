@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { useRouter } from "next/router";
 import Header from "../../components/Header";
-import WorkCard from "../../components/WorkCard";
 import Footer from "../../components/Footer";
 import Head from "next/head";
 import Cursor from "../../components/Cursor";
@@ -13,6 +12,9 @@ export default function IllustrationId() {
   // Ref
   const workRef = useRef();
   const router = useRouter();
+  const illuNum = Number(router.query.id) - 1;
+  const illuData = data.illustrations[illuNum];
+  // console.log(illuData);
 
   // Handling Scroll
   const handleWorkScroll = () => {
@@ -46,31 +48,32 @@ export default function IllustrationId() {
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
+
         {/* 일러 작업물 */}
-        console.log()
-        {router.query.id ? (
-          <div className="mt-10 flex flex-col">
-            <img
-              className="w-full h-96 rounded-lg shadow-lg object-cover"
-              src={data.illustrations.image}
-              alt={data.illustrations.title}
-            ></img>
-            <h1
-              ref={data.illustrations.title}
-              className="mt-10 text-4xl mob:text-2xl laptop:text-6xl text-bold"
-            >
-              {data.illustrations.title}
+
+        <div className="grid items-center">
+          {/* 이미지 */}
+          {illuData ? (
+            <div className="">
+              <img
+                alt={illuData.title}
+                className="h-full w-full object-cover"
+                src={illuData.imageSrc}
+              ></img>
+            </div>
+          ) : (
+            <div></div>
+          )}
+          <div className="">
+            <h1 className="mt-5 text-3xl font-medium">
+              {illuData.title ? illuData.title : "Project Name"}
             </h1>
-            <h2
-              ref={data.illustrations.description}
-              className="mt-2 text-xl max-w-4xl text-darkgray opacity-50"
-            >
-              {data.illustrations.description}
-            </h2>{" "}
+            <h2 className="text-xl opacity-50">
+              {illuData.description ? illuData.description : "Description"}
+            </h2>
           </div>
-        ) : (
-          <div className="mt-10 flex flex-col"></div>
-        )}
+        </div>
+
         <div
           className="my-20 w-full mx-auto grid place-items-center text-gray-500 hover:text-orange-600"
           onClick={() => window.scrollTo(0, 0)}
