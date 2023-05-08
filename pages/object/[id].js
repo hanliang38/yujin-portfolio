@@ -56,9 +56,9 @@ export default function ObjectId() {
           {objData ? (
             <div className="">
               <img
-                alt={objData.title}
+                alt={objData?.title}
                 className="h-full w-full object-cover"
-                src={objData.imageSrc}
+                src={objData?.imageSrc}
               ></img>
             </div>
           ) : (
@@ -66,10 +66,10 @@ export default function ObjectId() {
           )}
           <div className="">
             <h1 className="mt-5 text-3xl font-medium">
-              {objData.title ? objData.title : "Project Name"}
+              {objData?.title ? objData?.title : "Project Name"}
             </h1>
             <h2 className="text-xl opacity-50">
-              {objData.description ? objData.description : "Description"}
+              {objData?.description ? objData?.description : "Description"}
             </h2>
           </div>
         </div>

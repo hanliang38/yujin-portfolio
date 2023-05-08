@@ -62,9 +62,9 @@ export default function AnimationId() {
           {aniData ? (
             <div className="transition ease-in-out delay-150 hover:-translate-y-1">
               <img
-                alt={aniData.title}
+                alt={aniData?.title}
                 className="h-full w-full object-cover"
-                src={aniData.imageSrc}
+                src={aniData?.imageSrc}
               ></img>
             </div>
           ) : (
@@ -72,10 +72,10 @@ export default function AnimationId() {
           )}
           <div>
             <h1 className="mt-5 text-3xl font-medium hover:text-orange-500 hover:delay-150">
-              {aniData.title ? aniData.title : "Project Name"}
+              {aniData?.title ? aniData?.title : "Project Name"}
             </h1>
             <h2 className="text-xl opacity-50 hover:text-gray-500">
-              {aniData.description ? aniData.description : "Description"}
+              {aniData?.description ? aniData?.description : "Description"}
             </h2>
           </div>
         </div>

@@ -56,9 +56,9 @@ export default function IllustrationId() {
           {illuData ? (
             <div className="">
               <img
-                alt={illuData.title}
+                alt={illuData?.title}
                 className="h-full w-full object-cover"
-                src={illuData.imageSrc}
+                src={illuData?.imageSrc}
               ></img>
             </div>
           ) : (
@@ -66,10 +66,10 @@ export default function IllustrationId() {
           )}
           <div className="">
             <h1 className="mt-5 text-3xl font-medium">
-              {illuData.title ? illuData.title : "Project Name"}
+              {illuData?.title ? illuData?.title : "Project Name"}
             </h1>
             <h2 className="text-xl opacity-50">
-              {illuData.description ? illuData.description : "Description"}
+              {illuData?.description ? illuData?.description : "Description"}
             </h2>
           </div>
         </div>
