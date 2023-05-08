@@ -51,13 +51,7 @@ export default function Illustration() {
       <div className="laptop:mt-20 mt-10"></div>
       <div className="fixed-bg-ani"></div>
       {/* 일러작업물 */}
-      <div
-        className="container mx-auto mb-10"
-        oncontextmenu="return false"
-        onselectstart="return false"
-        ondragstart="return false"
-        onkeydown="return false"
-      >
+      <div className="container mx-auto mb-10">
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
             {data.illustrations.map((project) => (
